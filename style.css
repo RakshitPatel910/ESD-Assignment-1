@@ -1,0 +1,178 @@
+#navbar{
+    position: sticky;   
+    top: 0;
+    overflow: hidden;
+    z-index: 10;
+    align-self: start;
+    width: 100%;    
+    /* background-color: rgba(255, 255, 255, 0.4); */
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+}
+.navbar-brand {
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.nav-item{
+    margin: 0 20px;
+    font-size: 1rem;
+    color: white;
+}
+.nav-link{
+    font-size: 1.3rem;
+    color: white;
+}
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* font-size: 20rem; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    top: -9.5vh;
+}
+/* .banner-img{
+    width: 100%;
+    height: 100%;   
+    position: inherit;
+} */
+.banner-text{
+    position: relative;
+    top: 35%;
+    background-color: transparent;
+    color: wheat;
+    font-size: larger;
+    /* justify-self: center;
+    align-self: center; */
+    text-align: center;
+}
+.banner-title{
+    font-size: 5rem;
+}
+.lead{
+    font-size: 3rem;
+}
+
+
+.body-title{
+    margin: 0 0 5rem 0;
+    text-align: center;
+}
+.body-container{
+    width: 80vw;
+    /* padding: 20%; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+}
+.product-card {
+    transition: transform 0.3s;
+    width: 16rem;
+    height: 27rem;
+    margin: 2%;
+    /* background-color: #ffd000; */
+    color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+.card-bgcolor{
+    width: 100%;
+    height: 100%;
+    background-color: #ffd000;
+    position: relative;
+    border-radius: 50% 50% 25px 25px ;
+    background-image: radial-gradient(#e39700 5%, #ffb000 20%, #ffe200);
+
+}
+.img-container{
+    width: 100%;
+    height: 14.5rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.card-img{
+    width: 16em;
+    height: 16rem;
+    align-self: center;
+}
+.card-body{
+    padding: 20px;
+}
+.name-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+.card-description{
+    margin: 5px 0;    
+    font-size: 1rem;
+}
+.card-footer{
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.addtocart{
+    width: 7rem;
+    padding: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+.rating {
+    font-size: 1rem;
+    color: red;
+    /* border: 1px solid black; */
+}
+
+
+.footer{
+    margin: 10% 0 0 0;
+    width: 100%;
+    background-color: #ffdd00;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+.footer > .name{
+    margin: 0 10px;
+}
+
+
+.signup-body{
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+}
+.signup-container{
+    width: 50%;
+    padding: 10%;
+    border: 0.5px solid grey;
+    border-radius: 20px;
+}
